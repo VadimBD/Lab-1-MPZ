@@ -13,5 +13,13 @@ namespace Lab_1_MPZ.Lab1
         public string LastName { get; set; } = string.Empty;
         public string MiddleName { get; set; } = string.Empty;
         public DateTime BirthdayDate { get; set; }
+        public ProjectOwner(int id, string firstName, string lastName, string middleName, DateTime birthdayDate)
+        {
+            Id = id;
+            FirstName = firstName; 
+            LastName = lastName; 
+            MiddleName = middleName; 
+            BirthdayDate = birthdayDate;
+        }
     }
 }
